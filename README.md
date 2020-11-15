@@ -1,2 +1,2 @@
 # pihole
-Automate pihole blacklist changeS
+Automate pihole blacklist changes
