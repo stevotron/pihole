@@ -1,4 +1,6 @@
-# pihole
+# Pi-hole
+
+## Setup
 
 Enable/disable specific entries in the `domainlist` table.
 
@@ -13,6 +15,19 @@ Add a couple of crobjobs to enable blacklisting of distracting websites at night
 30 21 * * * sudo /usr/bin/php /path/to/script.php -e
 ```
 
-### Next steps
+## Distracting domains
+
+### YouTube
+
+googlevideo.com  
+youtu.be  
+youtube-nocookie.com  
+youtube.com  
+youtube.googleapis.com  
+youtubei.googleapis.com  
+ytimg.com  
+ytimg.l.google.com  
+
+## Next steps
 
 Make use of pihole groups?
