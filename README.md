@@ -30,4 +30,4 @@ ytimg.l.google.com
 
 ## Next steps
 
-Allow group names and comment strings to be passed through?
+Allow group names and comment strings to be passed through from the command line?
