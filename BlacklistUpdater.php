@@ -12,10 +12,10 @@ class BlacklistUpdater
     $options = getopt('ed');
 
     if (isset($options['e'])) {
-      $this->update('Day time only', '[day-time-only]', true);
+      $this->update('Night blocked', '[night-blocked]', true);
       echo 'Domain blocking enabled...';
     } elseif (isset($options['d'])) {
-      $this->update('Day time only', '[day-time-only]', false);
+      $this->update('Night blocked', '[night-blocked]', false);
       echo 'Domain blocking disabled...';
     } else {
       echo 'Please provide a valid argument \'-e\' (enable) or \'-d\' (disable)';
