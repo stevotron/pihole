@@ -2,9 +2,9 @@
 
 ## Setup
 
-Enable/disable specific entries in the `domainlist` table.
+Enable/disable specific entries in the `domainlist` table or groups using the `group` table.
 
-Any entry with a comment including the string `[auto-on-off]` will be enabled/disabled when the script is run.
+The group called "Night block" or any entry with a comment including the string `[night-block]` will be enabled/disabled when the script is run.
 
 Add a couple of crobjobs to enable blacklisting of distracting websites at night,
 
@@ -30,4 +30,4 @@ ytimg.l.google.com
 
 ## Next steps
 
-Make use of pihole groups?
+Allow group names and comment strings to be passed through?
