@@ -25,7 +25,7 @@ class BlacklistUpdater
     echo 'Restarting Pi-hole DNS and reloading lists...';
     echo "\n";
 
-    exec('pihole restartdns reload-lists');
+    exec('pihole restartdns reload');
   }
 
   private function update(?string $groupName, ?string $commentString, bool $enable)
